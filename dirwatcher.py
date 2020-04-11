@@ -1,14 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import signal
-import time
-import logging
-import logging.handlers
-from datetime import datetime as dt
-import argparse
-import os
+
+__author__ = "Tiffany McLean with help from the demos"
+
 import errno
+import os
+import argparse
+from datetime import datetime as dt
+import logging.handlers
+import logging
+import time
+import signal
 
 
 logger = logging.getLogger(__file__)
